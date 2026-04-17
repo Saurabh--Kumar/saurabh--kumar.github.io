@@ -1,0 +1,22 @@
+{
+  "intro": "I write about software engineering, system design, clean code practices and my experiences building scalable systems.",
+  "platformUrl": "https://medium.com/@yourusername",
+  "platformName": "Medium",
+  "blogs": [
+    {
+      "title": "Understanding Async JavaScript",
+      "url": "https://medium.com/@yourusername/understanding-async-javascript",
+      "description": "Deep dive into promises, async/await and event loop."
+    },
+    {
+      "title": "Modern CSS Layouts Explained",
+      "url": "https://medium.com/@yourusername/modern-css-layouts",
+      "description": "Complete guide to Flexbox and Grid layouts."
+    },
+    {
+      "title": "Clean Code Principles in Practice",
+      "url": "https://medium.com/@yourusername/clean-code-principles",
+      "description": "How to apply SOLID principles in real world projects."
+    }
+  ]
+}
