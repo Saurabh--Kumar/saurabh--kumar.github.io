@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yourusername",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/yourprofile",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Blog",
+      "url": "https://yourblog.com",
+      "icon": "blog"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:your.email@example.com",
+      "icon": "email"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/yourhandle",
+      "icon": "twitter"
+    }
+  ]
+}

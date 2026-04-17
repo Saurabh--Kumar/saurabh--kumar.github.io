@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "type": "work",
+      "company": "Company Name",
+      "role": "Senior Software Engineer",
+      "startDate": "2022-01",
+      "endDate": "Present",
+      "description": "Working on scalable distributed systems and leading technical initiatives.",
+      "highlights": [
+        "Led architecture redesign improving system performance by 40%",
+        "Mentored junior engineers and established code review standards",
+        "Implemented CI/CD pipelines reducing deployment time by 60%"
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Previous Company",
+      "role": "Software Engineer",
+      "startDate": "2019-06",
+      "endDate": "2021-12",
+      "description": "Developed customer facing applications and internal tools.",
+      "highlights": [
+        "Built full-stack web applications used by 50k+ daily users",
+        "Designed and implemented REST APIs and microservices",
+        "Optimized database queries reducing load times by 70%"
+      ]
+    }
+  ]
+}

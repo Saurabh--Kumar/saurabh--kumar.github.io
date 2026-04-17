@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Example Project 1",
+      "description": "A full-stack web application that solves real world problems with clean architecture and good user experience.",
+      "technologies": ["React", "Node.js", "PostgreSQL", "Docker"],
+      "githubUrl": "https://github.com/yourusername/project1",
+      "liveUrl": "https://project-demo.com",
+      "featured": true
+    },
+    {
+      "title": "CLI Tool",
+      "description": "Command line utility for automating development workflows and improving team productivity.",
+      "technologies": ["Go", "Cobra"],
+      "githubUrl": "https://github.com/yourusername/cli-tool",
+      "liveUrl": null,
+      "featured": true
+    },
+    {
+      "title": "Open Source Library",
+      "description": "Popular open source library with 1000+ GitHub stars used by developers worldwide.",
+      "technologies": ["TypeScript"],
+      "githubUrl": "https://github.com/yourusername/library",
+      "liveUrl": "https://npmjs.com/package/your-library",
+      "featured": true
+    }
+  ]
+}

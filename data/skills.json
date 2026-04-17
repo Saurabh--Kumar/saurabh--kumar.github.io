@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "items": ["JavaScript", "TypeScript", "Python", "Go", "Rust"]
+    },
+    {
+      "name": "Frontend",
+      "items": ["React", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"]
+    },
+    {
+      "name": "Backend",
+      "items": ["Node.js", "Express", "FastAPI", "GraphQL", "PostgreSQL"]
+    },
+    {
+      "name": "DevOps & Tools",
+      "items": ["Docker", "Kubernetes", "Git", "GitHub Actions", "AWS"]
+    }
+  ]
+}
