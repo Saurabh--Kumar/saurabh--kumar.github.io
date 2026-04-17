@@ -19,7 +19,10 @@ class DataLoader {
         }
 
         try {
-            const response = await fetch(path);
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 8000);
+            const response = await fetch(path, { signal: controller.signal });
+            clearTimeout(timeoutId);
             
             if (!response.ok) {
                 throw new Error(`Failed to load ${path}: ${response.status}`);
@@ -31,7 +34,11 @@ class DataLoader {
             console.log(`✅ Loaded: ${path}`);
             return data;
         } catch (error) {
-            console.error(`❌ Error loading ${path}:`, error);
+            if (error.name === 'AbortError') {
+                console.error(`❌ Timeout loading ${path}: Request took too long`);
+            } else {
+                console.error(`❌ Error loading ${path}:`, error);
+            }
             throw error;
         }
     }

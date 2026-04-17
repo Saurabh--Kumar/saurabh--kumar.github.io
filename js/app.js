@@ -44,19 +44,25 @@ class PortfolioApp {
         document.getElementById('nav-brand').textContent = this.data.profile.name;
         
         const navLinks = document.getElementById('nav-links');
-        const sections = ['About', 'Skills', 'Experience', 'Projects', 'Connect'];
+        // Name -> href id mapping (matches actual HTML section ids
+        const sections = [
+            { name: 'About', id: 'hero' },
+            { name: 'Skills', id: 'skills' },
+            { name: 'Experience', id: 'experience' },
+            { name: 'Projects', id: 'projects' },
+            { name: 'Connect', id: 'links' }
+        ];
         
-        navLinks.innerHTML = sections.map(name => {
-            const id = name.toLowerCase();
-            return `<li><a href="#${id}">${name}</a></li>`;
+        navLinks.innerHTML = sections.map(section => {
+            return `<li><a href="#${this.escapeHtml(section.id)}">${this.escapeHtml(section.name)}</a></li>`;
         }).join('');
     }
 
     renderProfile() {
-        const { name, title, bio, location } = this.data.profile;
+        const { name, title, bio, location, avatar } = this.data.profile;
         
         document.getElementById('hero-content').innerHTML = `
-            <div class="hero-avatar"></div>
+            <img class="hero-avatar" alt="${this.escapeHtml(name)} profile picture" src="${this.escapeHtml(avatar || '')}">
             <h1 class="hero-name">${this.escapeHtml(name)}</h1>
             <p class="hero-title">${this.escapeHtml(title)}</p>
             <p class="hero-bio">${this.escapeHtml(bio)}</p>
