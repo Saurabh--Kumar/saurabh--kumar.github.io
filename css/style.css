@@ -335,6 +335,43 @@ body {
     font-size: 0.875rem;
 }
 
+/* Blogs Section */
+.blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.blog-card {
+    background-color: var(--bg-secondary);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+}
+
+.blog-card:hover {
+    transform: translateY(-3px);
+    background-color: var(--bg-card);
+}
+
+.blog-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.blog-description {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
 /* Footer */
 #footer {
     border-top: 1px solid var(--border);

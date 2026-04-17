@@ -48,12 +48,13 @@ class DataLoader {
      * @returns {Promise<Object>} All data objects
      */
     async loadAll() {
-        const [profile, skills, experience, projects, links] = await Promise.all([
+        const [profile, skills, experience, projects, links, blogs] = await Promise.all([
             this.load('./data/profile.json'),
             this.load('./data/skills.json'),
             this.load('./data/experience.json'),
             this.load('./data/projects.json'),
-            this.load('./data/links.json')
+            this.load('./data/links.json'),
+            this.load('./data/blogs.json')
         ]);
 
         return {
@@ -61,7 +62,8 @@ class DataLoader {
             skills,
             experience,
             projects,
-            links
+            links,
+            blogs
         };
     }
 

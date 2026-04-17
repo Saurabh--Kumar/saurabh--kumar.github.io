@@ -36,6 +36,7 @@ class PortfolioApp {
         this.renderSkills();
         this.renderExperience();
         this.renderProjects();
+        this.renderBlogs();
         this.renderLinks();
         this.renderFooter();
     }
@@ -44,12 +45,13 @@ class PortfolioApp {
         document.getElementById('nav-brand').textContent = this.data.profile.name;
         
         const navLinks = document.getElementById('nav-links');
-        // Name -> href id mapping (matches actual HTML section ids
+        // Name -> href id mapping (matches actual HTML section ids)
         const sections = [
             { name: 'About', id: 'hero' },
             { name: 'Skills', id: 'skills' },
             { name: 'Experience', id: 'experience' },
             { name: 'Projects', id: 'projects' },
+            { name: 'Blog', id: 'blogs' },
             { name: 'Connect', id: 'links' }
         ];
         
@@ -141,6 +143,25 @@ class PortfolioApp {
                 ${this.data.links.links.map(link => `
                     <a href="${this.escapeHtml(link.url)}" target="_blank" rel="noopener" class="link-card">
                         <div class="link-name">${this.escapeHtml(link.name)}</div>
+                    </a>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    renderBlogs() {
+        const container = document.getElementById('blogs-content');
+        
+        container.innerHTML = `
+            <div style="max-width: 700px; margin: 0 auto; text-align: center; margin-bottom: 3rem;">
+                <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 1rem;">${this.escapeHtml(this.data.blogs.intro)}</p>
+                <a href="${this.escapeHtml(this.data.blogs.platformUrl)}" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 500;">View all articles on ${this.escapeHtml(this.data.blogs.platformName)} →</a>
+            </div>
+            <div class="blogs-grid">
+                ${this.data.blogs.blogs.map(blog => `
+                    <a href="${this.escapeHtml(blog.url)}" target="_blank" rel="noopener" class="blog-card">
+                        <h3 class="blog-title">${this.escapeHtml(blog.title)}</h3>
+                        <p class="blog-description">${this.escapeHtml(blog.description)}</p>
                     </a>
                 `).join('')}
             </div>
