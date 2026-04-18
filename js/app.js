@@ -35,6 +35,7 @@ class PortfolioApp {
         this.renderProfile();
         this.renderSkills();
         this.renderExperience();
+        this.renderEducation();
         this.renderProjects();
         this.renderBlogs();
         this.renderLinks();
@@ -50,6 +51,7 @@ class PortfolioApp {
             { name: 'About', id: 'hero' },
             { name: 'Skills', id: 'skills' },
             { name: 'Experience', id: 'experience' },
+            { name: 'Education', id: 'education' },
             { name: 'Projects', id: 'projects' },
             { name: 'Blog', id: 'blogs' },
             { name: 'Connect', id: 'links' }
@@ -129,6 +131,34 @@ class PortfolioApp {
                                 ${project.liveUrl ? `<a href="${this.escapeHtml(project.liveUrl)}" target="_blank" rel="noopener">Live Demo</a>` : ''}
                             </div>
                         </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    renderEducation() {
+        const container = document.getElementById('education-content');
+        
+        container.innerHTML = `
+            <div class="education-timeline">
+                ${this.data.education.education.map(entry => `
+                    <div class="education-entry">
+                        <div class="education-header">
+                            <div class="education-degree">${this.escapeHtml(entry.degree)}</div>
+                            <div class="education-institute">${this.escapeHtml(entry.institute)}</div>
+                        </div>
+                        <div class="education-details">
+                            <span class="education-location">📍 ${this.escapeHtml(entry.location)}</span>
+                            <span class="education-year">🎓 ${this.escapeHtml(entry.graduationYear)}</span>
+                            <span class="education-cgpa">📊 ${this.escapeHtml(entry.cgpa)}</span>
+                        </div>
+                        <p class="education-description">${this.escapeHtml(entry.description)}</p>
+                        ${entry.highlights && entry.highlights.length > 0 ? `
+                        <ul class="education-highlights">
+                            ${entry.highlights.map(h => `<li>${this.escapeHtml(h)}</li>`).join('')}
+                        </ul>
+                        ` : ''}
                     </div>
                 `).join('')}
             </div>

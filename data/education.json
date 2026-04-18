@@ -1,0 +1,29 @@
+{
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Computer Science",
+      "institute": "Example Institute of Technology",
+      "location": "City, State",
+      "graduationYear": "2020",
+      "cgpa": "8.5/10",
+      "description": "Specialized in Software Engineering and Distributed Systems",
+      "highlights": [
+        "Dean's List for 6 consecutive semesters",
+        "Final year project on Machine Learning based recommendation systems",
+        "Active member of coding club"
+      ]
+    },
+    {
+      "degree": "Higher Secondary School Certificate",
+      "institute": "Example Senior Secondary School",
+      "location": "City, State",
+      "graduationYear": "2016",
+      "cgpa": "92%",
+      "description": "Science stream with Physics, Chemistry and Mathematics",
+      "highlights": [
+        "Secured 95% in board examinations",
+        "Participated in state level mathematics olympiad"
+      ]
+    }
+  ]
+}
