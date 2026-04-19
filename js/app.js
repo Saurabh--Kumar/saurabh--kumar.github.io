@@ -33,9 +33,9 @@ class PortfolioApp {
     renderAll() {
         this.renderNavigation();
         this.renderProfile();
+        this.renderEducation();
         this.renderSkills();
         this.renderExperience();
-        this.renderEducation();
         this.renderProjects();
         this.renderBlogs();
         this.renderLinks();
@@ -49,9 +49,9 @@ class PortfolioApp {
         // Name -> href id mapping (matches actual HTML section ids)
         const sections = [
             { name: 'About', id: 'hero' },
+            { name: 'Education', id: 'education' },
             { name: 'Skills', id: 'skills' },
             { name: 'Experience', id: 'experience' },
-            { name: 'Education', id: 'education' },
             { name: 'Projects', id: 'projects' },
             { name: 'Blog', id: 'blogs' },
             { name: 'Connect', id: 'links' }
