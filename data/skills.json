@@ -2,19 +2,19 @@
   "categories": [
     {
       "name": "Programming Languages",
-      "items": ["JavaScript", "TypeScript", "Python", "Go", "Rust"]
-    },
-    {
-      "name": "Frontend",
-      "items": ["React", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"]
+      "items": ["Java", "Python"]
     },
     {
       "name": "Backend",
-      "items": ["Node.js", "Express", "FastAPI", "GraphQL", "PostgreSQL"]
+      "items": ["Springboot", "Hibernate", "Kafka", "GraphQL", "PostgreSQL"]
+    },
+    {
+      "name": "Datastores",
+      "items": ["MySql", "Redis", "Elasticsearch"]
     },
     {
       "name": "DevOps & Tools",
-      "items": ["Docker", "Kubernetes", "Git", "GitHub Actions", "AWS"]
+      "items": ["Docker", "Kubernetes", "Git", "AWS"]
     }
   ]
 }
