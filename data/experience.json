@@ -2,15 +2,15 @@
   "entries": [
     {
       "type": "work",
-      "company": "Oracle",
-      "role": "Senior Application Engineer",
-      "startDate": "06-2017",
-      "endDate": "04-2021",
-      "description": "Worked on an industry leading Transportation  Management solution. The product helps clients manage transport throughout a global supply chain. Clients can optimize on costs, delivery time etc.",
+      "company": "Intuit",
+      "role": "Senior Software Engineer",
+      "startDate": "03-2024",
+      "endDate": "Present",
+      "description": "Worked on Quickbooks Online Payroll Team",
       "highlights": [
-        "Developed a feature for multi-party billing, invoice/bill consolidation and adjustment post approval.",
-        "Developed a feature for sending tracking events on shipment groups. Events are applied to all eligible shipments in that particular shipment group after matching.",
-        "Developed a DB Migration Framework which allows developer to apply their db changes and run the scripts in\ncorrect order."
+        "Designed and Implemented an AI agent to help customers with general help and troubleshooting questions. Adopted by 100K customer in 1st month of launch.",
+        "Designed and implemented a modern pipenine to migrate Desktop Payroll customers to Online Payroll. Achieved a success rate of over 95% as compared to 55% on the legacy pipeline.",
+        "Automated the handling od MTD tax notice resolution for customers. Over 80% notices are processed and appropriate action taken within a minute of upload."
       ]
     },
     {
@@ -21,10 +21,23 @@
       "endDate": "03-2024",
       "description": "Worked on the Orders and Return Management System",
       "highlights": [
-        "Implemented a feature to charge Return abuser customers a return fee per return. Brought down return percentage from abusive users came down from over 60% to less than 20%.",
-        "Implemented Open box delivery for low trust customers. This has prevented fraudulent behavior with yearly savings of over Rs 35 cr.",
-        "Price Drop Refund: We have seen customers returning the product and then reordering if the price of the product drops within the return period. Myntra incurs logistics cost 3 times in such a scenario. Did the entire HLD, LLD, implementation, testing, deployment and monitoring of a feature to return the difference of original price and dropped price upto a threshold. This along with a return service fee, resulted in 500 bps reduction in returns/RTO from 41% to 36% of total items.",
-        "Implemented feature to incentivise Myntra Wallet adoption by giving instant refund. This increased wallet adoption by 220 bps."
+        "Designed and Implemented a feature to charge Return abuser customers a return fee per return. Brought down return percentage from abusive users came down from over 60% to less than 20%.",
+        "Designed and Implemented Open box delivery for low trust customers. This has prevented fraudulent behavior with yearly savings of over Rs 35 cr.",
+        "Designed and Implemented a price protection feature which resulted in reduction in returns/RTO from 41% to 36% of total items.",
+        "Designed and Implemented feature to incentivise Myntra Wallet adoption by giving instant refund. This increased wallet adoption by 220 bps."
+      ]
+    },
+    {
+      "type": "work",
+      "company": "Oracle",
+      "role": "Senior Application Engineer",
+      "startDate": "06-2017",
+      "endDate": "04-2021",
+      "description": "Worked on an industry leading Transportation  Management solution. The product helps clients manage transport throughout a global supply chain. Clients can optimize on costs, delivery time etc.",
+      "highlights": [
+        "Developed a feature for multi-party billing, invoice/bill consolidation and adjustment post approval.",
+        "Developed a feature for sending tracking events on shipment groups. Events are applied to all eligible shipments in that particular shipment group after matching.",
+        "Developed a DB Migration Framework which allows developer to apply their db changes and run the scripts in\ncorrect order."
       ]
     }
   ]
