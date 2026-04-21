@@ -19,11 +19,12 @@
       "role": "Senior Software Engineer",
       "startDate": "04-2021",
       "endDate": "03-2024",
-      "description": "Developed customer facing applications and internal tools.",
+      "description": "Worked on the Orders and Return Management System",
       "highlights": [
-        "Built full-stack web applications used by 50k+ daily users",
-        "Designed and implemented REST APIs and microservices",
-        "Optimized database queries reducing load times by 70%"
+        "Implemented a feature to charge Return abuser customers a return fee per return. Brought down return percentage from abusive users came down from over 60% to less than 20%.",
+        "Implemented Open box delivery for low trust customers. This has prevented fraudulent behavior with yearly savings of over Rs 35 cr.",
+        "Price Drop Refund: We have seen customers returning the product and then reordering if the price of the product drops within the return period. Myntra incurs logistics cost 3 times in such a scenario. Did the entire HLD, LLD, implementation, testing, deployment and monitoring of a feature to return the difference of original price and dropped price upto a threshold. This along with a return service fee, resulted in 500 bps reduction in returns/RTO from 41% to 36% of total items.",
+        "Implemented feature to incentivise Myntra Wallet adoption by giving instant refund. This increased wallet adoption by 220 bps."
       ]
     }
   ]
