@@ -2,23 +2,23 @@
   "entries": [
     {
       "type": "work",
-      "company": "Company Name",
-      "role": "Senior Software Engineer",
-      "startDate": "2022-01",
-      "endDate": "Present",
-      "description": "Working on scalable distributed systems and leading technical initiatives.",
+      "company": "Oracle",
+      "role": "Senior Application Engineer",
+      "startDate": "06-2017",
+      "endDate": "04-2021",
+      "description": "Worked on an industry leading Transportation  Management solution. The product helps clients manage transport throughout a global supply chain. Clients can optimize on costs, delivery time etc.",
       "highlights": [
-        "Led architecture redesign improving system performance by 40%",
-        "Mentored junior engineers and established code review standards",
-        "Implemented CI/CD pipelines reducing deployment time by 60%"
+        "Developed a feature for multi-party billing, invoice/bill consolidation and adjustment post approval.",
+        "Developed a feature for sending tracking events on shipment groups. Events are applied to all eligible shipments in that particular shipment group after matching.",
+        "Developed a DB Migration Framework which allows developer to apply their db changes and run the scripts in\ncorrect order."
       ]
     },
     {
       "type": "work",
-      "company": "Previous Company",
-      "role": "Software Engineer",
-      "startDate": "2019-06",
-      "endDate": "2021-12",
+      "company": "Myntra",
+      "role": "Senior Software Engineer",
+      "startDate": "04-2021",
+      "endDate": "03-2024",
       "description": "Developed customer facing applications and internal tools.",
       "highlights": [
         "Built full-stack web applications used by 50k+ daily users",
