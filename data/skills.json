@@ -1,6 +1,10 @@
 {
   "categories": [
     {
+      "name": "AI Skills",
+      "items": ["LLM", "Lang Graph", "Lang fuse", "AI Agents"]
+    },
+    {
       "name": "Programming Languages",
       "items": ["Java", "Python"]
     },
