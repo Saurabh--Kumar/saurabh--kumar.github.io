@@ -10,7 +10,7 @@ class PortfolioApp {
     }
 
     /**
-     * Safely escape HTML to prevent XSS attacks
+     * Safely escape HTML to pfrevent XSS attacks
      * @param {string} str - String to escape
      * @returns {string} Escaped safe string
      */
@@ -22,7 +22,7 @@ class PortfolioApp {
 
     initTheme() {
         const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'light') {
+        if (savedTheme !== 'dark') {
             document.body.classList.add('light-theme');
         }
         this.setupThemeToggle();
