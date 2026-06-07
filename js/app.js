@@ -6,6 +6,7 @@
 class PortfolioApp {
     constructor() {
         this.data = null;
+        this.initTheme();
     }
 
     /**
@@ -17,6 +18,38 @@ class PortfolioApp {
         const div = document.createElement('div');
         div.textContent = str;
         return div.innerHTML;
+    }
+
+    initTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            document.body.classList.add('light-theme');
+        }
+        this.setupThemeToggle();
+    }
+
+    setupThemeToggle() {
+        const toggleBtn = document.getElementById('theme-toggle');
+        if (!toggleBtn) return;
+
+        toggleBtn.addEventListener('click', () => this.toggleTheme());
+        this.updateThemeIcon();
+    }
+
+    toggleTheme() {
+        document.body.classList.toggle('light-theme');
+        const isLight = document.body.classList.contains('light-theme');
+        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        this.updateThemeIcon();
+    }
+
+    updateThemeIcon() {
+        const toggleBtn = document.getElementById('theme-toggle');
+        if (!toggleBtn) return;
+        const icon = toggleBtn.querySelector('.theme-icon');
+        if (!icon) return;
+        const isLight = document.body.classList.contains('light-theme');
+        icon.textContent = isLight ? '☀️' : '🌙';
     }
 
     async init() {
