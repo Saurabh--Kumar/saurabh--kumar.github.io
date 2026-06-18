@@ -6,6 +6,7 @@
       "technologies": ["Ollama", "Gemma 4", "Langgraph", "Postgres", "fast API", "Python"],
       "githubUrl": "https://github.com/Saurabh--Kumar/bubble_pop",
       "liveUrl": null,
+      "demoLink": "https://youtu.be/PVdfmS1AIRw",
       "featured": true
     },
     {
@@ -14,6 +15,7 @@
       "technologies": ["Python", "Computer Vision", "Mediapipe", "OpenCV"],
       "githubUrl": "https://github.com/Saurabh--Kumar/bubble_pop",
       "liveUrl": null,
+      "demoLink": null,
       "featured": true
     },
     {
@@ -22,6 +24,7 @@
       "technologies": ["Java", "Springboot", "Hibernate"],
       "githubUrl": "https://github.com/Saurabh--Kumar/identityService",
       "liveUrl": null,
+      "demoLink": null,
       "featured": true
     }
   ]

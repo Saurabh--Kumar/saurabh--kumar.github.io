@@ -162,6 +162,7 @@ class PortfolioApp {
                             <div class="project-links">
                                 ${project.githubUrl ? `<a href="${this.escapeHtml(project.githubUrl)}" target="_blank" rel="noopener">GitHub</a>` : ''}
                                 ${project.liveUrl ? `<a href="${this.escapeHtml(project.liveUrl)}" target="_blank" rel="noopener">Live Demo</a>` : ''}
+                                ${project.demoLink ? `<a href="${this.escapeHtml(project.demoLink)}" target="_blank" rel="noopener">Demo</a>` : ''}
                             </div>
                         </div>
                     </div>
