@@ -4,7 +4,7 @@
       "title": "Notification Agent",
       "description": "An AI agent service built with FastAPI and LangGraph that autonomously generates context-aware notification suggestions by reasoning over real-time news and campaign data via a local Ollama LLM, with async/sync APIs and PostgreSQL persistence",
       "technologies": ["Ollama", "Gemma 4", "Langgraph", "Postgres", "fast API", "Python"],
-      "githubUrl": "https://github.com/Saurabh--Kumar/bubble_pop",
+      "githubUrl": "https://github.com/Saurabh--Kumar/NotificationAgent",
       "liveUrl": null,
       "demoLink": "https://youtu.be/PVdfmS1AIRw",
       "featured": true
