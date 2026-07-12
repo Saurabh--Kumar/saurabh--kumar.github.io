@@ -26,6 +26,15 @@
       "liveUrl": null,
       "demoLink": null,
       "featured": true
+    },
+    {
+      "title": "Focus",
+      "description": "A browser extension that helps you stay focused by adding a timer barrier before you can access distracting websites during your work hours.",
+      "technologies": ["Java Script", "HTML", "CSS", " Browser Extension"],
+      "githubUrl": "https://github.com/Saurabh--Kumar/focus",
+      "liveUrl": null,
+      "demoLink": "https://youtu.be/ECuFfQmjLHc",
+      "featured": true
     }
   ]
 }
