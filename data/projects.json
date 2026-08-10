@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "title": "Development Automation Skill",
+      "description": "Claude skills that automates the Test-Driven Development while keeping the human in control.",
+      "technologies": ["Claude", "Cursor", "Agentic Development", "Kilo Code"],
+      "githubUrl": "https://github.com/Saurabh--Kumar/tdd-automation-skill",
+      "liveUrl": null,
+      "demoLink": null,
+      "featured": true
+    },
+    {
       "title": "Notification Agent",
       "description": "An AI agent service built with FastAPI and LangGraph that autonomously generates context-aware notification suggestions by reasoning over real-time news and campaign data via a local Ollama LLM, with async/sync APIs and PostgreSQL persistence",
       "technologies": ["Ollama", "Gemma 4", "Langgraph", "Postgres", "fast API", "Python"],
