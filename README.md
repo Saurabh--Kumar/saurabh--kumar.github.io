@@ -8,7 +8,7 @@ Personal portfolio website of Saurabh Kumar — Backend Engineer & AI Engineer.
 - Dynamic content rendering from JSON data files
 - Dark/Light theme toggle
 - Responsive design with mobile-first breakpoints
-- Sections: Hero, Education, Skills, Experience, Projects, Blog, Connect
+- Sections: Hero, Education, Skills, Experience, Personal Projects, Blog, Connect
 - No build step, no dependencies, no server-side code
 
 ## Tech Stack
@@ -50,7 +50,7 @@ All content is managed via JSON files in the `data/` directory:
 - **Education** → edit `data/education.json`
 - **Skills** → edit `data/skills.json`
 - **Experience** → edit `data/experience.json`
-- **Projects** → edit `data/projects.json`
+- **Personal Projects** → edit `data/projects.json`
 - **Blogs** → edit `data/blogs.json`
 - **Links** → edit `data/links.json`
 

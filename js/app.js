@@ -85,7 +85,7 @@ class PortfolioApp {
             { name: 'Education', id: 'education' },
             { name: 'Skills', id: 'skills' },
             { name: 'Experience', id: 'experience' },
-            { name: 'Projects', id: 'projects' },
+            { name: 'Personal Projects', id: 'projects' },
             { name: 'Blog', id: 'blogs' },
             { name: 'Connect', id: 'links' }
         ];
