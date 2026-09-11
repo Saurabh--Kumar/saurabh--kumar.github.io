@@ -1,24 +1,24 @@
 {
   "categories": [
     {
-      "name": "AI Skills",
-      "items": ["LLM", "Lang Graph", "Lang fuse", "AI Agents"]
+      "name": "AI & Data Integration",
+      "items": ["LangGraph", "Langfuse", "RAG", "Autonomous AI Agents", "LLMs", "Elasticsearch", "MySQL", "PostgreSQL", "Redis"]
     },
     {
       "name": "Programming Languages",
       "items": ["Java", "Python"]
     },
     {
-      "name": "Backend",
-      "items": ["Springboot", "Hibernate", "Kafka", "GraphQL", "PostgreSQL"]
+      "name": "Backend & Infrastructure",
+      "items": ["Spring Boot", "Hibernate", "FastAPI", "Kafka", "Vert.x", "Docker", "Kubernetes", "AWS", "Microsoft Azure"]
     },
     {
-      "name": "Datastores",
-      "items": ["MySql", "Redis", "Elasticsearch"]
+      "name": "Architecture & Design",
+      "items": ["Distributed Systems", "High Throughput System Design", "REST", "Microservices", "Scalability", "Domain", "Driven Design", "Object Oriented Design"]
     },
     {
-      "name": "DevOps & Tools",
-      "items": ["Docker", "Kubernetes", "Git", "AWS"]
+      "name": "Tools & Observability",
+      "items": ["Git", "Jenkins", "JIRA", "Postman", "NewRelic", "Grafana"]
     }
   ]
 }
