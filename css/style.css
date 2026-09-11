@@ -161,8 +161,8 @@ body {
 .hero-bio {
     font-size: 1.125rem;
     color: var(--text-secondary);
-    max-width: 600px;
-    margin: 0 auto 2rem;
+    margin: 0 0 2rem;
+    text-align: left;
 }
 
 .hero-location {
