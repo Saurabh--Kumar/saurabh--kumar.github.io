@@ -21,10 +21,9 @@
       "endDate": "03-2024",
       "description": "Worked on the Orders and Return Management System",
       "highlights": [
-        "Designed and Implemented a feature to charge Return abuser customers a return fee per return. Brought down return percentage from abusive users came down from over 60% to less than 20%.",
-        "Designed and Implemented Open box delivery for low trust customers. This has prevented fraudulent behavior with yearly savings of over Rs 35 cr.",
-        "Designed and Implemented a price protection feature which resulted in reduction in returns/RTO from 41% to 36% of total items.",
-        "Designed and Implemented feature to incentivise Myntra Wallet adoption by giving instant refund. This increased wallet adoption by 220 bps."
+        "Return Rate Reduction: Architected core modifications to the return and refund calculation pipelines to support dynamic fee application. Engineered the refund processing workflows to automatically claw back shipping fees and attach return penalties for flagged abusive accounts, driving down the abusive user return rate from over 60% to under 20% and preserving significant gross margin.",
+        "Fulfillment & Return Architecture: Engineered the core backend workflows for the \"Open Box Delivery\" fraud prevention initiative. Redesigned packing and warehouse assignment algorithms, and overhauled the downstream return processing pipeline to support the new logistics protocol, yielding yearly business savings of over ₹35 Crores.",
+        "Differential Refund Workflows: Redesigned refund calculation pipelines and processing workflows to support a real time price protection feature. Engineered the backend systems to accurately process differential refunds and seamlessly incentivize payouts via the Myntra Wallet, reducing total return/RTO volume from 41% to 36% and driving a 220 basis point increase in wallet adoption."
       ]
     },
     {
@@ -35,9 +34,8 @@
       "endDate": "04-2021",
       "description": "Worked on an industry leading Transportation  Management solution. The product helps clients manage transport throughout a global supply chain. Clients can optimize on costs, delivery time etc.",
       "highlights": [
-        "Developed a feature for multi-party billing, invoice/bill consolidation and adjustment post approval.",
-        "Developed a feature for sending tracking events on shipment groups. Events are applied to all eligible shipments in that particular shipment group after matching.",
-        "Developed a DB Migration Framework which allows developer to apply their db changes and run the scripts in\ncorrect order."
+        "Enterprise Billing Architecture: Designed and implemented core architectural components for multiparty billing, enabling seamless invoice/bill consolidation and post approval adjustments for industry leading transportation workflows.",
+        "Database Migration Tooling: Implemented a custom database migration framework, providing Liquibase style functionality for the engineering organization. Developed the core execution engine to ensure reliable, ordered, and reproducible database schema evolutions."
       ]
     }
   ]
