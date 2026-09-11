@@ -2,7 +2,8 @@
   "projects": [
     {
       "title": "Development Automation Skill",
-      "description": "Claude skills that automates the Test-Driven Development while keeping the human in control.",
+      "description": "Engineered a stateful, multi agent AI framework that decomposes complex Low Level Designs into sequential subproblems. Orchestrated specialized AI personas across development stages, integrating automated design drift detection and human in the loop checkpoints to enforce strict architectural fidelity and high quality code."
+    ,
       "technologies": ["Claude", "Cursor", "Agentic Development", "Kilo Code"],
       "githubUrl": "https://github.com/Saurabh--Kumar/tdd-automation-skill",
       "liveUrl": null,
@@ -11,7 +12,7 @@
     },
     {
       "title": "Notification Agent",
-      "description": "An AI agent service built with FastAPI and LangGraph that autonomously generates context-aware notification suggestions by reasoning over real-time news and campaign data via a local Ollama LLM, with async/sync APIs and PostgreSQL persistence",
+      "description": "Architected an autonomous notification agent leveraging FastAPI and LangGraph for complex reasoning. Designed the system to fetch live news and reason over active enterprise campaign data (themes, categories, timelines) stored in a local PostgreSQL database, utilizing a local LLM via Ollama to generate context aware suggestions",
       "technologies": ["Ollama", "Gemma 4", "Langgraph", "Postgres", "fast API", "Python"],
       "githubUrl": "https://github.com/Saurabh--Kumar/NotificationAgent",
       "liveUrl": null,
@@ -29,7 +30,7 @@
     },
     {
       "title": "Identity Service",
-      "description": "A spring boot based service to generate unique ids at scale. The service is horizontally scalable and guarantees uniqueness of IDs.",
+      "description": "Built a highly available Spring Boot service designed for containerized deployment to generate guaranteed unique IDs at scale. Useful for applications like tinyURL.",
       "technologies": ["Java", "Springboot", "Hibernate"],
       "githubUrl": "https://github.com/Saurabh--Kumar/identityService",
       "liveUrl": null,
