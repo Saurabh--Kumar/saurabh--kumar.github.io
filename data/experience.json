@@ -8,9 +8,9 @@
       "endDate": "Present",
       "description": "Worked on Quickbooks Online Payroll Team",
       "highlights": [
-        "Designed and Implemented an AI agent to help customers with general help and troubleshooting questions. Adopted by 100K customer in 1st month of launch.",
-        "Designed and implemented a modern pipenine to migrate Desktop Payroll customers to Online Payroll. Achieved a success rate of over 95% as compared to 55% on the legacy pipeline.",
-        "Automated the handling od MTD tax notice resolution for customers. Over 80% notices are processed and appropriate action taken within a minute of upload."
+        "AI Agent Architecture: Led the technical design and implementation of an autonomous AI agent to troubleshoot complex customer issues and resolve help inquiries. Drove the project from proof of concept to production, reducing human agent support cases by 4% within the first quarter of launch",
+        "Legacy System Modernization: Drove the technical strategy for a mission critical desktop to online customer migration pipeline. Architected a resilient migration engine that achieved over 90% data accuracy, a significant improvement over the legacy system's 60% capability.",
+        "Automated Resolution Pipeline: Architected an event driven remediation system for tax notice resolutions. Engineered a downstream service to process extracted JSON payloads and automatically execute the required customer configuration state changes, driving an 80% zero touch resolution rate."
       ]
     },
     {
@@ -30,7 +30,7 @@
     {
       "type": "work",
       "company": "Oracle",
-      "role": "Senior Application Engineer",
+      "role": "Application Engineer",
       "startDate": "06-2017",
       "endDate": "04-2021",
       "description": "Worked on an industry leading Transportation  Management solution. The product helps clients manage transport throughout a global supply chain. Clients can optimize on costs, delivery time etc.",
