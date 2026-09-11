@@ -14,6 +14,11 @@
       "name": "Email",
       "url": "mailto:bhardwajsaurabh10@gmail.com",
       "icon": "email"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@saurabhbhardwaj7446",
+      "icon": "youtube"
     }
   ]
 }
