@@ -4,6 +4,11 @@
   "platformName": "Medium",
   "blogs": [
     {
+      "title": "Why AI Agents Keep Shipping Bugs (and How to Fix It)",
+      "url": "https://medium.com/@bhardwajsaurabh10/why-ai-agents-keep-shipping-bugs-and-how-to-fix-it-b99b9827cde3",
+      "description": "A guide to get high quality code from agents."
+    },
+    {
       "title": "Designing Write Heavy Data-store",
       "url": "https://medium.com/@bhardwajsaurabh10/designing-write-heavy-data-store-21a2869b2cbd",
       "description": "An overview of design choices made to make a datastore perform under heavy write load"
